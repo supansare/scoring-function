@@ -14,9 +14,6 @@ def main(params):
   
   wml_client = APIClient(WML_CREDENTIALS)
   wml_client.set.default_space(space_id)
-  name = params.get("name", "world")
-  greeting = "Hello " + name + "!"
-  print("hello")
 
   return {
         "headers": {
