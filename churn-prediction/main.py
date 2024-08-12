@@ -1,5 +1,4 @@
 import os
-from ibm_watson_machine_learning import APIClient
 
 def main(params):
 
